@@ -1,0 +1,12 @@
+# Ignore dependencies
+node_modules/
+
+# Ignore local database (we don't want to share user passwords/data)
+server/health-wallet.db
+
+# Ignore Environment variables
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
